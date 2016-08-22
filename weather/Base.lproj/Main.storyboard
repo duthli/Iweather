@@ -45,6 +45,9 @@
                                 <rect key="frame" x="208" y="123" width="107" height="122"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="90"/>
                                 <state key="normal" title="C"/>
+                                <connections>
+                                    <action selector="Change_Temp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1zl-qF-IkY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HA NOI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsk-Zl-4St">
                                 <rect key="frame" x="81" y="253" width="208" height="29"/>
@@ -58,6 +61,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="WSF-vh-g2F">
+                                <rect key="frame" x="132" y="258" width="21" height="21"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="3gT-ba-xZD">
+                                <rect key="frame" x="216" y="258" width="21" height="21"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -79,5 +88,6 @@
     <resources>
         <image name="Refesh" width="51" height="44"/>
         <image name="Sun.png" width="750" height="1334"/>
+        <image name="location" width="20" height="20"/>
     </resources>
 </document>

@@ -33,9 +33,9 @@ class ViewController: UIViewController {
     var temp_ : String = ""
     var city = ["HANOI","HO CHI MINH", "SAIGON","TAY HO"]
     var Background = ["Sun","Moon","Blood"]
-    var quote = ["App nay lam boi hung",
-                 "Dang Lam Do Chua Xong",
-                 "Khong An Bua"]
+    var quote = ["BluBluBlu",
+                 "BleBleBle",
+                 "BlaBlaBla"]
     override func viewDidLoad() {
         super.viewDidLoad()
         UIView.setAnimationsEnabled(false)

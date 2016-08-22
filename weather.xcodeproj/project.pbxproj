@@ -12,9 +12,9 @@
 		B28249E31D601F2900A410D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28249E11D601F2900A410D5 /* Main.storyboard */; };
 		B28249E51D601F2900A410D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28249E41D601F2900A410D5 /* Assets.xcassets */; };
 		B28249E81D601F2900A410D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28249E61D601F2900A410D5 /* LaunchScreen.storyboard */; };
-		B28249F31D601FED00A410D5 /* Blood.png in Resources */ = {isa = PBXBuildFile; fileRef = B28249F01D601FED00A410D5 /* Blood.png */; };
-		B28249F41D601FED00A410D5 /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = B28249F11D601FED00A410D5 /* Moon.png */; };
-		B28249F51D601FED00A410D5 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = B28249F21D601FED00A410D5 /* Sun.png */; };
+		B2E38E5C1D6B5453009405FB /* Blood.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E38E591D6B5453009405FB /* Blood.png */; };
+		B2E38E5D1D6B5453009405FB /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E38E5A1D6B5453009405FB /* Moon.png */; };
+		B2E38E5E1D6B5453009405FB /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E38E5B1D6B5453009405FB /* Sun.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		B28249E41D601F2900A410D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B28249E71D601F2900A410D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B28249E91D601F2900A410D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B28249F01D601FED00A410D5 /* Blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blood.png; path = "../../../weather/Background Images/Blood.png"; sourceTree = "<group>"; };
-		B28249F11D601FED00A410D5 /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Moon.png; path = "../../../weather/Background Images/Moon.png"; sourceTree = "<group>"; };
-		B28249F21D601FED00A410D5 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sun.png; path = "../../../weather/Background Images/Sun.png"; sourceTree = "<group>"; };
+		B2E38E591D6B5453009405FB /* Blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blood.png; sourceTree = "<group>"; };
+		B2E38E5A1D6B5453009405FB /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon.png; sourceTree = "<group>"; };
+		B2E38E5B1D6B5453009405FB /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,9 @@
 		B28249EF1D601FD400A410D5 /* BACKGROUND */ = {
 			isa = PBXGroup;
 			children = (
-				B28249F01D601FED00A410D5 /* Blood.png */,
-				B28249F11D601FED00A410D5 /* Moon.png */,
-				B28249F21D601FED00A410D5 /* Sun.png */,
+				B2E38E591D6B5453009405FB /* Blood.png */,
+				B2E38E5A1D6B5453009405FB /* Moon.png */,
+				B2E38E5B1D6B5453009405FB /* Sun.png */,
 			);
 			name = BACKGROUND;
 			sourceTree = "<group>";
@@ -139,10 +139,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B28249F51D601FED00A410D5 /* Sun.png in Resources */,
-				B28249F31D601FED00A410D5 /* Blood.png in Resources */,
+				B2E38E5E1D6B5453009405FB /* Sun.png in Resources */,
+				B2E38E5C1D6B5453009405FB /* Blood.png in Resources */,
 				B28249E81D601F2900A410D5 /* LaunchScreen.storyboard in Resources */,
-				B28249F41D601FED00A410D5 /* Moon.png in Resources */,
+				B2E38E5D1D6B5453009405FB /* Moon.png in Resources */,
 				B28249E51D601F2900A410D5 /* Assets.xcassets in Resources */,
 				B28249E31D601F2900A410D5 /* Main.storyboard in Resources */,
 			);
@@ -306,6 +306,7 @@
 				B28249EE1D601F2900A410D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
